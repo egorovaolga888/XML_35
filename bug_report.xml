@@ -1,1 +1,18 @@
-
+<?xml version="1.0"?>
+<Bug_report>
+    <BugID>1</BugID>
+    <Enviroment>TEST</Enviroment>
+    <Severity>Major</Severity>
+    <Priority>High</Priority>
+    <Summary>При изменении данных в гарантии на вкладке Fee со статусом INAU график комиссий не пересчитывается.</Summary>
+    <ActualResult>При изменении данных в гарантии на вкладке Fee со статусом INAU график комиссий не пересчитывается.</ActualResult>
+    <ExpectedResult>При изменении данных в гарантии на вкладке Fee со статусом INAU график комиссий  пересчитывается.</ExpectedResult>
+    <StepsToReproduce>1.Открыть версию MD.DEAL,
+2.Заполнить все необходимые поля гарантии,
+3.Закоммитить гарантию (гарантия в статусе INAU),
+4.Открыть на редактирование и произвести изменения на вкладке Fee (изменить частоту списания комиссии с 1 на 3 месяца),
+5.Закоммитить измененную гарантию</StepsToReproduce>
+<Reuirements>FS: 8.3</Reuirements>
+<Reproducibility>Always</Reproducibility>
+<Comment>No comments</Comment>
+</Bug_report>
