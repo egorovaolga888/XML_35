@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<skills>
+<BasicTheory>testing, bug reports, documentation, methods, area, SDLC, STLC</BasicTheory>
+<Client-serverArchitecture>HTTP Methods of requests to the server, HTTP server response codes, Structures of HTTP requests and responses, JSON, XML</Client-serverArchitecture>
+<Tools>Charles,Fiddler, Chrome DevTools, Terminal Linux - Git Bash, Git Hub, Jmeter</Tools>
+<DataBases>MySQL, PostgreSQL</DataBases>
+</skills>
